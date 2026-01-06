@@ -15,6 +15,16 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit; /* Esto hace que el enlace no cambie a color azul */
+}
+
+.class-card, .classes-grid a {
+    text-decoration: none;
+    display: block; /* Asegura que el enlace se comporte como un bloque contenedor */
+}
+
 body {
     background-color: var(--bg-black);
     color: var(--text-white);
