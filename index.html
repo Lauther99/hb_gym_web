@@ -19,13 +19,17 @@
     <header>
         <nav class="navbar">
             <img src="./assets/logo_sin_fondo.jpg" alt="BODY HEALTH GYM" style="height: 50px;">
-            <ul class="nav-links">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#">INICIO</a></li>
                 <li><a href="#about">NOSOTROS</a></li>
                 <li><a href="#classes">CLASES</a></li>
                 <li><a href="#contact">CONTÁCTANOS</a></li>
             </ul>
-            <a href="https://wa.me/593983048841" class="btn-main">Más información</a>
         </nav>
     </header>
 
@@ -103,11 +107,13 @@
                 <div class="contact-info">
                     <h3>Ponte en contacto con nosotros</h3>
                     <p>¿Quieres saber más? Llámanos o envíanos un mensaje para programar una sesión inicial.</p>
+                    <br>
                     <div class="info-item">
                         <i class="fas fa-phone"></i> +593 098-304-8841
                     </div>
                     <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i> 1234 Lorem AB., #123-4567<br>Ipsum Dolor, AB 12345
+                        <i class="fas fa-map-marker-alt"></i>Humberto Albornoz e Ignacio de Quezada.<br>Edificio Mila
+                        Arias
                     </div>
                     <div class="social-icons">
                         <a href="https://wa.me/593983048841" target="_blank">
@@ -123,7 +129,10 @@
                 </div>
 
                 <div class="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.796319049092!2d-78.5093303!3d-0.1902766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59bf0f308dc09%3A0x605e6fe2f2ed44c!2sGimnasio%20Body%20Health%20Gym%20La%20Comuna!5e0!3m2!1ses!2spe!4v1767828150324!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.796319049092!2d-78.5093303!3d-0.1902766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59bf0f308dc09%3A0x605e6fe2f2ed44c!2sGimnasio%20Body%20Health%20Gym%20La%20Comuna!5e0!3m2!1ses!2spe!4v1767828150324!5m2!1ses!2spe"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
             </div>
@@ -132,12 +141,16 @@
 
     <footer>
         <div class="footer-nav">
-            <a href="#">INICIO</a> | <a href="#">TIKTOK</a> | <a href="#">NOSOTROS</a> | <a href="#">CLASES</a> | <a
-                href="#">CONTÁCTANOS</a>
+            <a href="#">INICIO</a> | <a href="#about">NOSOTROS</a> | <a href="#classes">CLASES</a> | <a
+                href="#contact">CONTÁCTANOS</a>
         </div>
         <br class="copyright">Copyright 2026 </br>Todos los derechos reservados.</p>
     </footer>
 
 </body>
+<a href="https://wa.me/593983048841" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+<script src="script.js"></script>
 
 </html>
