@@ -78,6 +78,7 @@ header {
     font-size: 0.8rem;
     transition: 0.3s;
     border: none;
+    align-self: center;
 }
 
 .btn-main:hover {
@@ -258,6 +259,7 @@ input, textarea {
 }
 
 footer {
+    margin-top: 16px;
     padding: 50px 0;
     border-top: 1px solid #222;
     text-align: center;
